@@ -2,9 +2,11 @@
   $(document).ready(function(){
   	
   	var $pushtolocal = [];
-  	//var $pulledfromlocal = [];
+  	var $pulledfromlocal = localStorage.getItem('userinput');
   	  	
-  	//$('ul').append('<li><input type="checkbox" class="checkedbox"></input><span>' + $pulledfromlocal + '</span></li>');
+  	if ($pulledfromlocal != null){
+  		$('ul').append('<li><input type="checkbox" class="checkedbox"></input><span>' + $pulledfromlocal + '</span></li>');
+  	}
   	
   	
   	$('#deleteButton').on('click', function(e){
