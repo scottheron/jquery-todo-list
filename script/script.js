@@ -5,7 +5,7 @@
   	var $pulledfromlocal = localStorage.getItem('userinput');
   	  	
   	if ($pulledfromlocal != null){
-  		$('ul').append('<li><input type="checkbox" class="checkedbox"></input><span>' + $pulledfromlocal + '</span></li>').set; /* tried to all 'id="local" so i could target this specifically to initialte the local storage clear when it's checkbox is clicked but it doenst work :(*/
+  		$('ul').append('<li><input type="checkbox" class="checkedbox"></input><span>' + $pulledfromlocal + '</span></li>'); /* tried to add 'id="local" so i could target this specifically to initialte the local storage clear when it's checkbox is clicked but it doenst work :(*/
   	}
   	
   	
