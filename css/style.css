@@ -1,0 +1,30 @@
+body {
+  font-family: 'Allerta', sans-serif;
+  background-image: url('http://www.wallpaperstop.com/wallpapers/nature-wallpapers/scenery-wallpapers/relaxing-nature-wallpaper-1920x1200-1003083.jpg');
+  background-size: cover;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  text-align: justify;
+  list-style: none;
+}
+
+.listbox {
+
+  float: center;
+  margin: 100px auto 0 auto;
+  opacity: 0.65;
+  background-color: white;
+  border-radius: 25%;
+  width: 400px;
+  padding: 50px 50px;
+
+}
+
